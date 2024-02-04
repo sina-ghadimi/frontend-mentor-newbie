@@ -25,13 +25,13 @@
 body {
   display: grid;
   place-items: center;
-  background-color: var(--clr-primary-400);
   line-height: 1.5;
   min-height: 100vh;
   font-family: var(--ff-default);
   font-size: var(--fs-base);
   text-align: left;
-  background: url(assets/images/background-pattern-mobile.svg) no-repeat;
+  background: url(assets/images/background-pattern-mobile.svg) no-repeat,
+    var(--clr-primary-400);
   background-size: 100%;
   padding: 1.5rem;
   color: var(--clr-primary-700);
@@ -159,6 +159,7 @@ h4 {
 
 @media (min-width: 765px) {
   body {
-    background: url(assets/images/background-pattern-desktop.svg) no-repeat;
+    background: url(assets/images/background-pattern-desktop.svg) no-repeat,
+      var(--clr-primary-400);
   }
 }
