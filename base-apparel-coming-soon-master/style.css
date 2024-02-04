@@ -189,6 +189,10 @@ form.error small {
       'logo img'
       'landing img';
   }
+  body {
+    background: url('images/bg-pattern-desktop.svg') no-repeat;
+    background-position: left;
+  }
 
   .logo {
     grid-area: logo;
@@ -201,6 +205,7 @@ form.error small {
 
   .header {
     font-size: 4rem;
+    text-align: left;
   }
 
   .landing {
